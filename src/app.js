@@ -17,7 +17,7 @@ class Server {
     });
     
     server.listen(this.conf.port, this.conf.hostname, () => {
-      const addr = `http://${this.conf.hostname}:${this.conf.port}`;
+      const addr = `http://${this.conf.host}:${this.conf.port}`;
       console.info('the boot root path is：' + this.conf.root);
       console.info(`server start at ${chalk.green(addr)}`);
       openUrl(addr);

@@ -1,6 +1,6 @@
 {
-  "name": "anyway",
-  "version": "0.1.0",
+  "name": "anyway-xw",
+  "version": "0.1.1",
   "description": "查看服务器文件",
   "main": "src/app.js",
   "bin": {
@@ -29,7 +29,7 @@
     "url": "git@gitee.com:cherry-xw/anyway.git"
   },
   "keywords": [
-    "anyway"
+    "anyway-xw"
   ],
   "author": "chery",
   "license": "MIT"
