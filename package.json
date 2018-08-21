@@ -1,0 +1,36 @@
+{
+  "name": "anyway",
+  "version": "0.1.0",
+  "description": "查看服务器文件",
+  "main": "src/app.js",
+  "bin": {
+    "anyway": "bin/anyway"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "handlebars": "^4.0.11",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.4.0",
+    "pre-commit": "^1.2.2"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "lint",
+    "fix"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:cherry-xw/anyway.git"
+  },
+  "keywords": [
+    "anyway"
+  ],
+  "author": "chery",
+  "license": "MIT"
+}
